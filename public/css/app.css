@@ -7,9 +7,9 @@
 
 .login-box {
     margin: 0 auto;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.25);
-    border: 1px solid #343A3A;
+    border: 1px solid #343a3a;
     width: 100vh;
     height: 48vh;
 }
@@ -37,7 +37,7 @@
     padding: 3%;
     width: 100%;
     height: 12%;
-    border: 1px solid #343A3A;
+    border: 1px solid #343a3a;
     border-radius: 50px;
     margin-top: 6%;
 }
@@ -46,7 +46,7 @@
     width: 100%;
     height: 40px;
     color: white;
-    background: #F2A93A;
+    background: #5eaccd;
     border: 0px;
     border-radius: 50px;
 }
@@ -62,7 +62,6 @@
     transition: 0.3s;
 }
 
-
 /* Style pengguna */
 .pengguna table,
 .pengguna th,
@@ -71,12 +70,12 @@
 }
 
 .pengguna tr.head {
-    background-color: #43CD8B;
+    background-color: #43cd8b;
     color: white;
 }
 
 .pengguna tr.body-light {
-    background-color: #E8F3EE;
+    background-color: #e8f3ee;
 }
 
 .pengguna tr.body-dark {
@@ -84,7 +83,7 @@
 }
 
 .pengguna .tombol {
-    background: #43CD8B;
+    background: #43cd8b;
     border-radius: 50px;
     color: white;
 }
@@ -94,7 +93,6 @@
     color: white;
 }
 
-
 /* Style admin */
 .admin table,
 .admin th,
@@ -103,12 +101,12 @@
 }
 
 .admin tr.head {
-    background-color: #F2A93A;
+    background-color: #f2a93a;
     color: white;
 }
 
 .admin tr.body-light {
-    background-color: #E8F3EE;
+    background-color: #e8f3ee;
 }
 
 .admin tr.body-dark {
@@ -116,7 +114,7 @@
 }
 
 .admin .tombol {
-    background: #F2A93A;
+    background: #f2a93a;
     border-radius: 50px;
     color: white;
 }
@@ -127,9 +125,8 @@
 }
 
 .admin h5 {
-    color: #F2A93A;
+    color: #f2a93a;
 }
-
 
 /* Style mitra */
 .mitra table,
@@ -139,12 +136,12 @@
 }
 
 .mitra tr.head {
-    background-color: #F67C55;
+    background-color: #f67c55;
     color: white;
 }
 
 .mitra tr.body-light {
-    background-color: #E8F3EE;
+    background-color: #e8f3ee;
 }
 
 .mitra tr.body-dark {
@@ -152,7 +149,7 @@
 }
 
 .mitra .tombol {
-    background: #F67C55;
+    background: #f67c55;
     border-radius: 50px;
     color: white;
 }

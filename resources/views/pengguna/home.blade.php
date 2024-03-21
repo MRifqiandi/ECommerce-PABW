@@ -1,4 +1,4 @@
-@extends('layout.navbar')
+<!-- @extends('layout.navbar')
 
 @section('top-navbar')
     <li class="nav-item">
@@ -31,22 +31,23 @@
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
             {{ session('error') }}
         </div>
-    @endif
+    @endif -->
 
     <div class="pengguna">
         <div class="text-left">
             <h2> Selamat datang {{ Auth::user()->name }} </h2>
             <div>
                 <img src="{{ URL::asset('images/homepic.png') }}" width="200px" height="255px">
-            </div>
+             </div>
+             <!--
             <h4> Jumlah saldo Anda: </h4>
             <div>
                 <a type="container"
                     style="background: #ffffff; border-radius: 45px; height: 40px; width: 200px; color: rgb(24, 24, 24); display: flex; flex-direction: row; justify-content: center; align-items: center; border: 2px solid #43CD8B; padding: 18px 24px;">{{ Auth::user()->saldo_emoney }}</a>
             </div>
-        </div>
+        </div> -->
 
-        <div class="text-left">
+        <!-- <div class="text-left">
             <h2> Kamar Hotel</h2>
             <h2> Temukan Kamar Hotel sesuai dengan</h2>
             <h2> kenyamanan anda</h2>
@@ -213,5 +214,5 @@
             <a type="button" href="{{ route('logout') }}"
                 style="background: #43CD8B; border-radius: 45px; height: 40px; width: 100px; color: white; display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 18px 24px;">Next</a>
         </div>
-    </div>
+    </div> -->
 @endsection
